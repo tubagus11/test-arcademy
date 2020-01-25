@@ -1,0 +1,10 @@
+<p>
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="username..." pattern="[a-zA-Z]{8,12}" title="Huruf awal harus kecil, min 8 max 12 Karakter" required />
+</p>
+<p>
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="password..."pattern="(?=^.{9,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="9 Digit,minimal 1 simbol dan 1 angka." required />
+<p>
+    <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+</p>
